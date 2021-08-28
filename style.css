@@ -1,0 +1,100 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+ body{
+    margin:0; padding:0; 
+    background: url(images/neon_ok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height:150vh;
+    font-family: 'Roboto', sans-serif;
+    
+    
+  
+}
+.login-box{
+    top:50px;
+    /* border:1px solid red; */
+    width:280px;
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    
+    
+
+    
+    padding-top: 240px;
+   
+
+    
+}
+.login-box h1{
+    font-size: 30px;
+    border-bottom: 6px solid green;
+    text-align: center;
+    animation: transitionIn 0.75s;
+    
+}
+.textbox{
+    
+    padding:2px 0;
+    margin:2px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.textbox input{
+    
+    outline:none; border:none; background:none;
+    border-bottom: 2px solid green;
+    margin:0 12px;
+    font-size: 16px;
+    color:white;
+}
+.first_one p{
+    text-transform: capitalize;
+    border-bottom: 2px solid green;
+    font-size: 17px;
+    padding:2px 10px;
+    width:180px;
+    letter-spacing: 0.4px;
+    
+}
+.last_one p{
+    
+    font-size: 17px;
+    padding:2px 5px;
+    text-transform: capitalize;
+    border-bottom: 2px solid green;
+    width:180px;
+    margin:10px;
+}
+.last_one checkbox{
+    border:1px solid red;
+}
+.btn{
+    padding:6px 12px;
+    font-size: 18px;
+    outline:none; border:none;
+    background:none;
+    border:2px solid green;
+    color:white;
+    width:100%;
+    letter-spacing: 3px;
+    font-size: bold;
+    text-transform: capitalize;
+    
+}
+.btn:hover{
+    background:green;
+}
+@keyframes transitionIn{
+    0%{
+        transform: rotate(-180deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+   
